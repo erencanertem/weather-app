@@ -12,7 +12,7 @@ function showTime() { // Added Hour,Minute and Second variable with Date Constru
 
 
   const clock = hour + ":" + minute + ":" + second;
-  document.getElementById("clock").innerHTML = clock;
+  document.getElementById("clock").innerHTML = `Istanbul Local Time : ${clock}`;
 
 
 
